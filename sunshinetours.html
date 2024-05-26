@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saikko</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link
+      rel="shortcut icon"
+      href=" images/logoAsset 7.png"
+      type="image/x-icon"
+    />
+  </head>
+  <header>
+    <div class="topbar">
+      <!-- Logo on the left -->
+      <a href="index.html"
+        ><div class="logo">
+          <img src="images/Asset 2.png" alt="" /></div
+      ></a>
+      <!-- Navigation on the right -->
+      <ul class="navigation">
+        <li><a href="design.html" class="nav-link">Design</a></li>
+        <li><a href="potraits.html" class="nav-link">Drawings</a></li>
+        <li><a href="layout.html" class="nav-link">Layout</a></li>
+      </ul>
+    </div>
+  </header>
+  <body>
+    <div class="grid-container">
+      <div class="grid-item">
+        <img src="3x/logArtboard 8@3x-100.jpg" alt="Image 1" />
+        <p>info about the tryptch</p>
+      </div>
+      <div class="grid-item">
+        <img src="3x/logArtboard 9@3x-100.jpg" alt="Image 2" />
+        <p>Leo's Terrain logo(info)<a href="leosterrain.html"> more...</a></p>
+      </div>
+      <div class="grid-item">
+        <img src="3x/logArtboard 10@3x-100.jpg" alt="Image 3" />
+        <p>Sunshine Tours logo</p>
+      </div>
+      <!-- Add more images here -->
+      <div class="grid-item">
+        <img src="3x/logArtboard 11@3x-100.jpg" alt="Image 1" />
+        <p>corporate</p>
+      </div>
+
+      <div class="grid-item">
+        <img src="3x/logArtboard 12@3x-100.jpg" alt="Image 2" />
+        <p>corporate</p>
+      </div>
+      <div class="grid-item">
+        <img src="3x/logArtboard 13@3x-100.jpg" alt="Image 3" />
+        <p>corporate</p>
+      </div>
+      <div class="grid-item">
+        <img src="3x/logArtboard 14@3x-100.jpg" alt="Image 1" />
+        <p>corporate</p>
+      </div>
+
+      <div class="grid-item">
+        <img src="3x/logArtboard 15@3x-100.jpg" alt="Image 2" />
+        <p>corporate</p>
+      </div>
+      <div class="grid-item">
+        <img src="3x/logArtboard 16@3x-100.jpg" alt="Image 3" />
+        <p>corporate</p>
+      </div>
+    </div>
+
+    <!-- Modal Container -->
+    <div class="modal" id="modal">
+      <img src="#" alt="silected" id="modal-image" />
+      <div class="modal-buttons">
+        <img id="prev" src="images/prevAsset 2.png" alt="" />
+
+        <img id="next" src="images/nextAsset 3.png" alt="" />
+      </div>
+    </div>
+
+    <script defer src="main.js"></script>
+    <style>
+      /* Style for the topbar */
+      .topbar {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      /* Style for the logo */
+      .logo img {
+        width: 3vw;
+      }
+
+      /* Style for the navigation */
+      .navigation {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .navigation li {
+        display: inline;
+        margin-left: 20px;
+      }
+
+      .navigation li a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      a.nav-link:hover {
+        color: #ff3c00;
+      }
+      header {
+        width: 50vw;
+
+        margin: 0px auto;
+        font-family: fantasy, Impact, Haettenschweiler, "Arial Narrow Bold",
+          sans-serif;
+      }
+    </style>
+  </body>
+</html>

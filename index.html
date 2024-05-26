@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saikko</title>
+  </head>
+  <link
+    rel="shortcut icon"
+    href=" images/logoAsset 7.png"
+    type="image/x-icon"
+  />
+  <header>
+    <div class="topbar">
+      <!-- Logo on the left -->
+      <div class="logo"><img src="images/Asset 2.png" alt="" /></div>
+      <!-- Navigation on the right -->
+      <ul class="navigation">
+        <li><a href="design.html" class="nav-link">Design</a></li>
+        <li><a href="potraits.html" class="nav-link">Drawings</a></li>
+      </ul>
+    </div>
+    <!-- Navigation on the right 
+    <div class="topnav">
+      <div class="topnav-right">
+        <a class="logo" href="index.html"
+          >
+        </a>
+      </div>
+      <div class="topnav-left"></div>
+      <div class="topnav-right">
+        <a href="design.html">Design</a>
+        <a href="potraits.html">Drawings</a>
+      </div>
+    </div>-->
+  </header>
+  <body>
+    <main>
+      <div class="holder">
+        <div class="left">
+          <div>
+            <h4>
+              Software Skills <img class="down" src="icons/down.png" alt="" />
+            </h4>
+
+            <div class="flex">
+              Adobe After-effects
+              <img src="icons/after-effects.png" alt="" />
+              Adobe Illustrator
+              <img src="icons/illustrator.png" alt="" />
+              Adobe Photoshop
+              <img src="icons/photoshop.png" alt="" />
+              Visual Studio Code
+              <img
+                src="icons/visual-studio-code-icon-2048x2026-9ua8vqiy.png"
+                alt=""
+              />
+              Adobe Premiere pro
+              <img src="icons/premiere-pro.png" alt="" />
+
+              Blender
+              <img src="icons/blender-2.svg" alt="" />
+            </div>
+          </div>
+          <div class="social">
+            <div class="item">
+              <h4 id="contact">
+                Contacts <img class="down" src="icons/down.png" alt="" />
+              </h4>
+              <div class="dropdown">
+                <div>
+                  <a href="https://www.instagram.com/saikko_kun/"
+                    ><img src="icons/instagram.png" alt="instagram"
+                  /></a>
+                  <a href="mailto:ntuthuko_sibiya@yahoo.com"
+                    ><img src="icons/email.png" alt=""
+                  /></a>
+                  <a href="https://github.com/Sakhokuhle"
+                    ><img src="icons/github.png" alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <!--might need to move this insta ICON TO THE RIGHT CORNER AND LEAVE THE EMAIL-->
+          </div>
+        </div>
+        <div class="center">
+          <div class="bio">
+            <h1>Sakhokuhle "Saikko" Sibiya</h1>
+            <p>
+              It is in the Name, <br />building beautiful things and adding
+              Crazy is what we all about.<br />
+              Saikko is a tree with many leaves that grows all seasons,
+              <br />including Portraits, Graphic design work, Web development,
+              Photography,<br />
+              and Infographics. You smile, We smile!
+            </p>
+          </div>
+          <div class="recent">
+            <h3>Recent Projects</h3>
+            <a href="leosterrain.html"
+              ><img src="3x/logArtboard 2@3x-100.jpg" alt=""
+            /></a>
+            <a href="sunshinetours.html"
+              ><img src="3x/logArtboard 8@3x-100.jpg" alt=""
+            /></a>
+            <a href="tailouredboutique.html"
+              ><img src="3x/logArtboard 26@3x-100.jpg" alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <style>
+      body {
+        margin: 0;
+      }
+
+      header {
+        height: 10vh;
+        width: 50vw;
+
+        margin: 0px auto;
+        font-family: fantasy, Impact, Haettenschweiler, "Arial Narrow Bold",
+          sans-serif;
+        position: sticky;
+      }
+
+      main {
+        width: 60%;
+        margin: 0 auto;
+      }
+      div.social {
+        gap: 10px;
+      }
+
+      div.social img {
+        height: 3vh;
+      }
+      .flex {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+      }
+      .flex img {
+        height: 3vh;
+        width: 3vh;
+      }
+      img.down {
+        height: 1.7vh;
+      }
+
+      div.center {
+        align-content: center;
+      }
+      div.recent {
+        max-height: 20vh;
+
+        overflow: hidden;
+        object-fit: cover;
+      }
+
+      div.recent img {
+        max-height: 18vh;
+        /* Gray border */
+        border-radius: 20%; /* Rounded border */
+        padding: 5px; /* Some padding */
+        width: 160px; /* Set a small width */
+      }
+
+      /*nav {
+              float: left;
+              color: #f2f2f2;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+              font-size: 17px;
+
+              width: 80vw;
+              margin: 0 auto;
+              justify-content: center;
+              font-family: Arial, Helvetica, sans-serif;
+            }/*/
+      .topnav {
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      .topnav a {
+        float: left !important;
+        color: #181818;
+
+        padding: 14px 10px;
+        text-decoration: none;
+        font-size: 17px;
+        padding-top: 40px;
+      }
+      .topnav .topnav a:hover {
+        background-color: #ff3c00;
+        color: rgb(255, 255, 255);
+      }
+      .topnav-left {
+        float: left;
+      }
+      .topnav-right {
+        float: right;
+      }
+
+      div.holder {
+        display: grid;
+        grid-template-columns: 20% 80%;
+        gap: 107px;
+        height: 80vh;
+        width: 50vw;
+        margin: 0 auto;
+        text-align: center;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+          Arial, sans-serif;
+      }
+
+      .left {
+        align-content: space-evenly;
+      }
+
+      div.logo img {
+        width: 3vw;
+      }
+
+      a.logo {
+        pointer-events: none;
+      }
+
+      .dropdown {
+        overflow: hidden;
+        list-style: none;
+
+        padding: 0;
+        width: 100%;
+        left: 0;
+        top: 62px;
+      }
+
+      .dropdown > div {
+        transform: translate(0, -100%);
+        transition: all 0.5s 0.1s;
+      }
+
+      .dropdown a {
+        display: block;
+        padding: 0;
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        color: #000000;
+      }
+
+      .dropdown a:hover {
+        background: rgb(255, 255, 255);
+      }
+
+      .item:hover > .dropdown > div {
+        transform: translate(0);
+      }
+
+      /* Style for the topbar */
+      .topbar {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      /* Style for the logo */
+
+      /* Style for the navigation */
+      .navigation {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .navigation li {
+        display: inline;
+        margin-left: 20px;
+      }
+
+      .navigation li a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      a.nav-link:hover {
+        color: #ff3c00;
+      }
+    </style>
+  </body>
+</html>
