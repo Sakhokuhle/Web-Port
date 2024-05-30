@@ -53,6 +53,7 @@ a.item {
   right: 100px;
   font-size: 15px;
   width: fit-content;
+  color: #ffffff;
 }
 
 #contact a :hover {
@@ -187,7 +188,7 @@ div.grid-item img:hover {
 header {
   top: 10px;
   height: fit-content;
-  width: 55vw;
+  width: 100vw;
 
   margin: 10px auto;
   font-family: fantasy, Impact, Haettenschweiler, "Arial Narrow Bold",
@@ -302,8 +303,4 @@ img#next {
 img#prev {
   width: 3vw;
   height: 3vw;
-}
-
-header {
-  position: sticky;
 }
