@@ -5,8 +5,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background: #ffffff;
   color: rgb(0, 0, 0);
-  width: 80vw;
-  height: 90vh;
+  width: 70vw;
+  height: 100vh;
 }
 main {
   width: 60%;
@@ -20,28 +20,6 @@ main {
 
 #logo img {
   max-height: 60px;
-}
-nav {
-  font-weight: 300;
-  font-size: 0;
-  display: flex;
-  padding: 0;
-  width: 30%;
-}
-
-nav .item {
-  font-size: 1rem;
-  display: inline-block;
-  position: relative;
-  padding: 0 20px;
-  cursor: pointer;
-  min-width: 25%;
-  height: 60px;
-  line-height: 60px;
-  text-align: center;
-
-  top: 8px;
-  right: 16px;
 }
 
 a.item {
@@ -108,18 +86,20 @@ div.container {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-  max-width: fit-content;
+
+  max-width: 50vw;
   margin: 0 auto;
 }
 
 .grid-item {
-  padding: 10px;
   text-align: center;
-  width: fit-content;
-  height: fit-content;
+  width: 15.5vw;
+
   margin: 10px;
   cursor: pointer;
+
+  overflow: hidden;
+  filter: blur(00.5s);
 }
 
 /* for responsiveness */
@@ -149,7 +129,7 @@ div.container {
 
 .modal-image {
   max-width: 100%;
-  max-height: 100vh;
+  max-height: 80vh;
   margin: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(231, 231, 231, 0.5);
@@ -167,16 +147,8 @@ div.container {
   transform: translateX(-50%);
 }
 
-.close {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  font-size: 30px;
-  cursor: pointer;
-}
-
 div.grid-item img {
-  height: 25vh;
+  width: 100%;
 
   border-radius: 10%;
 }
@@ -289,7 +261,7 @@ a.logo img {
 }
 
 img#modal-image {
-  height: 100%;
+  height: 95%;
   width: 70%;
 }
 
@@ -303,4 +275,8 @@ img#next {
 img#prev {
   width: 3vw;
   height: 3vw;
+}
+
+.orangered {
+  color: #ff6038;
 }
