@@ -25,13 +25,17 @@
         <li><a href="design.html" class="nav-link">Design</a></li>
       </ul>
     </div>
-
-    Expand Down Expand Up @@ -168,10 +167,6 @@
-    <h1>Webpage Layout</h1>
   </header>
+
   <body>
     <div class="grid-container">
-      <h1>Webpage Layout</h1>
+      <div class="grid-item" id="intro">
+        <h3>Website Layout</h3>
+        <p class="sub">
+          Webpages, <br /><strong>User-interface and User Expirience.</strong>
+          <br />
+        </p>
+      </div>
       <div class="grid-item">
         <img src="Layout/logArtboard 1 copy 3@3x-100.jpg" alt="Image 1" />
         <p>Website Homepage</p>
@@ -56,7 +60,29 @@
         <img src="Layout/logArtboard 1 copy 9_1@3x-100.jpg" alt="Image 2" />
         <p>Website 6th webpage</p>
       </div>
-      <div class="grid-item"><h1>Editotial Layout</h1></div>
+      <div class="grid-item">
+        <img src="Layout/logArtboard 1 copy 18@3x-100.jpg" alt="Image 2" />
+        <p>Website 7th webpage</p>
+      </div>
+
+      <div class="grid-item">
+        <img src="Layout/logArtboard 1 copy 19@3x-100.jpg" alt="Image 2" />
+        <p>Website 7th webpage</p>
+      </div>
+
+      <div class="grid-item" id="intro2">
+        <h3>Editotial Layout</h3>
+        <p class="sub">
+          Magazine and Advertisement<br /><strong>
+            Double Spread and Cover pages.</strong
+          >
+        </p>
+      </div>
+
+      <div class="grid-item">
+        <img src="Layout/Screenshot 2024-06-04 125602.png" alt="Image 2" />
+        <p>Website 6th webpage</p>
+      </div>
       <div class="grid-item">
         <img
           src="Layout/Screenshot 2024-05-31 112457.png"
@@ -77,30 +103,22 @@
         <img src="Layout/Screenshot 2024-05-31 112524.png" alt="Image 2" />
         <p>Website 6th webpage</p>
       </div>
+
       <div class="grid-item">
-        <img src="Layout/logArtboard 1 copy 9_1@3x-100.jpg" alt="Image 2" />
+        <img src="Layout/Screenshot 2024-06-04 125529.png" alt="Image 2" />
         <p>Website 6th webpage</p>
       </div>
       <div class="grid-item">
-        <img
-          src="Layout/3x/Layout/3x/logArtboard 1 copy 6@3x-100.jpg"
-          alt="Image 2"
-        />
-        <p>Website 7th webpage</p>
+        <img src="Layout/Screenshot 2024-06-04 125537.png" alt="Image 2" />
+        <p>Website 6th webpage</p>
       </div>
       <div class="grid-item">
-        <img
-          src="Layout/3x/Layout/3x/logArtboard 1 copy 7@3x-100.jpg"
-          alt="Image 2"
-        />
-        <p>Website 8th webpage</p>
+        <img src="Layout/Screenshot 2024-06-04 125546.png" alt="Image 2" />
+        <p>Website 6th webpage</p>
       </div>
       <div class="grid-item">
-        <img
-          src="Layout/3x/Layout/3x/logArtboard 1 copy 8@3x-100.jpg"
-          alt="Image 2"
-        />
-        <p>Website 9th webpage</p>
+        <img src="Layout/Screenshot 2024-06-04 125555.png" alt="Image 2" />
+        <p>Website 6th webpage</p>
       </div>
     </div>
     <!-- Modal Container -->
@@ -161,9 +179,18 @@
         width: 3vw;
         height: 3vw;
       }
-      img#modal-image {
-        height: 95vh;
-        width: 80vw;
+
+      .sub {
+        text-align: center;
+
+        color: orangered;
+      }
+      #intro,
+      #intro2 {
+        text-align: center;
+        background: #333;
+        height: fit-content;
+        color: white;
       }
     </style>
   </body>
