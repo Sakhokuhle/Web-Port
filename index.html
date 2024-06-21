@@ -301,6 +301,48 @@
       a.nav-link:hover {
         color: #ff3c00;
       }
+
+      @media (max-width: 700px) {
+        header {
+          height: 7vh;
+          width: 100vw;
+          margin: 0px auto;
+        }
+
+        main {
+          width: 90%;
+        }
+
+        div.center {
+          align-content: start;
+        }
+
+        div.holder {
+          grid-template-columns: 30% 70%;
+          width: 80vw;
+        }
+
+        #name {
+          font-size: 1.7rem;
+        }
+
+        div.recent {
+          flex-direction: column;
+          overflow: visible;
+        }
+
+        div.recent a:last-child {
+          display: none;
+        }
+
+        .topbar {
+          padding: 10px;
+        }
+
+        div.logo img {
+          width: 5vw;
+        }
+      }
     </style>
   </body>
 </html>
